@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieDB</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="images/favicon.png"/>
+</head>
+<body>
+    <nav class="navigation">
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon">
+
+            </span>
+        </label>
+
+        <a href="index.html" class="logo">
+            Movies<span>Box</span>
+        </a>
+
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <form action="" class="search-box">
+            <input type="text" name="search" placeholder="Search Movie" class="search-input" required/>
+            <button type="submit">
+                <i class="fas fa-search">
+
+                </i>
+            </button>
+        </form>
+    </nav>
+
+    <h1 class="t1">Trending Movies</h1>
+
+    <!--Trending Movies Section-->
+
+    <section id="main-slider">
+
+        <div class="main-slider-box">
+
+            <div class="main-slider-img">
+                <img src="https://image.tmdb.org/t/p/original/b47syIl3wreScfUSrCKb0D2d1Gg.jpg" alt="Poster"/>
+            </div>
+            <div class="main-slider-text">
+                <span class="quality"><b>FHD</b>
+                    <div class="rating">
+                        &nbsp;7.2 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </span>
+                <div class="bottom-text">
+                    <div class="movie-name">
+                        <span>2023</span>
+                        <strong>Gran Turismo</strong>
+                    </div>
+                    <div class="category-rating">
+                        <div class="category">
+                            <a href="#" class="c1">Action</a><a href="#" class="c2">Adventure</a><a href="#" class="c3">Drama</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-slider-box">
+
+            <div class="main-slider-img">
+                <img src="https://m.media-amazon.com/images/M/MV5BNDUyNTIzNDQtYTZmMi00M2FlLTgyZjUtYWViZWNhMDYzMjE4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="Poster"/>
+            </div>
+            <div class="main-slider-text">
+                <span class="quality"><b>FHD</b>
+                    <div class="rating">
+                        &nbsp;6.8 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </span>
+                <div class="bottom-text">
+                    <div class="movie-name">
+                        <span>2023</span>
+                        <strong>The Creator</strong>
+                    </div>
+                    <div class="category-rating">
+                        <div class="category">
+                            <a href="#" class="c1">Action</a><a href="#" class="c2">Adventure</a><a href="#" class="c3">Drama</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-slider-box">
+
+            <div class="main-slider-img">
+                <img src="https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg" alt="Poster"/>
+            </div>
+            <div class="main-slider-text">
+                <span class="quality"><b>FHD</b>
+                    <div class="rating">
+                        &nbsp;8.4 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </span>
+                <div class="bottom-text">
+                    <div class="movie-name">
+                        <span>2023</span>
+                        <strong>Oppenheimer</strong>
+                    </div>
+                    <div class="category-rating">
+                        <div class="category">
+                            <a href="#" class="c1">Biography</a><a href="#" class="c2">Drama</a><a href="#" class="c3">History</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-slider-box">
+
+            <div class="main-slider-img">
+                <img src="https://m.media-amazon.com/images/M/MV5BYzFiZjc1YzctMDY3Zi00NGE5LTlmNWEtN2Q3OWFjYjY1NGM2XkEyXkFqcGdeQXVyMTUyMTUzNjQ0._V1_FMjpg_UX1000_.jpg" alt="Poster"/>
+            </div>
+            <div class="main-slider-text">
+                <span class="quality"><b>UHD</b>
+                    <div class="rating">
+                        &nbsp;7.7 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </span>
+                <div class="bottom-text">
+                    <div class="movie-name">
+                        <span>2023</span>
+                        <strong>Mission: Impossible - Dead Reckoning Part One</strong>
+                    </div>
+                    <div class="category-rating">
+                        <div class="category">
+                            <a href="#" class="c1">Action</a><a href="#" class="c2">Adventure</a><a href="#" class="c3">Thriller</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <h1 class="t1">Series</h1>
+
+    <!--Series Section-->
+
+    <section id="main-slider">
+
+        <!--!-->
+
+        <div class="main-slider-box">
+
+            <div class="main-slider-img">
+                <img src="https://m.media-amazon.com/images/M/MV5BNDk5MzYzZmYtOTFiZi00YmE2LWFjOGUtNjMyODgxNjZiYzRjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg" alt="Poster"/>
+            </div>
+            <div class="main-slider-text">
+                <span class="quality"><b>UHD</b>
+                    <div class="rating">
+                        &nbsp;7.0 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </span>
+                <div class="bottom-text">
+                    <div class="movie-name">
+                        <span>2023</span>
+                        <strong>Monarch: Legacy of Monsters</strong>
+                    </div>
+                    <div class="category-rating">
+                        <div class="category">
+                            <a href="#" class="c1">Action</a><a href="#" class="c2">Adventure</a><a href="#" class="c3">Sci-Fi</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--2-->
+
+        <div class="main-slider-box">
+
+            <div class="main-slider-img">
+                <img src="https://m.media-amazon.com/images/M/MV5BMGYxOWMxNjMtNjE3Mi00YTRjLTlkZWUtNDk4NzBkMWEyYWE0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg" alt="Poster"/>
+            </div>
+            <div class="main-slider-text">
+                <span class="quality"><b>FHD</b>
+                    <div class="rating">
+                        &nbsp;7.8 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </span>
+                <div class="bottom-text">
+                    <div class="movie-name">
+                        <span>2023</span>
+                        <strong>Gen V</strong>
+                    </div>
+                    <div class="category-rating">
+                        <div class="category">
+                            <a href="#" class="c1">Action</a><a href="#" class="c2">Adventure</a><a href="#" class="c3">Comedy</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--3-->
+
+        <div class="main-slider-box">
+
+            <div class="main-slider-img">
+                <img src="https://m.media-amazon.com/images/M/MV5BZDk1MmI3YWEtMGE0MS00ZjFlLWIxMjgtMjc5MmRjOTZiMDc2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg" alt="Poster"/>
+            </div>
+            <div class="main-slider-text">
+                <span class="quality"><b>FHD</b>
+                    <div class="rating">
+                        &nbsp;7.2 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </span>
+                <div class="bottom-text">
+                    <div class="movie-name">
+                        <span>2023</span>
+                        <strong>The Continental</strong>
+                    </div>
+                    <div class="category-rating">
+                        <div class="category">
+                            <a href="#" class="c1">Action</a><a href="#" class="c2">Crime</a><a href="#" class="c3">Thriller</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--4-->
+
+        <div class="main-slider-box">
+
+            <div class="main-slider-img">
+                <img src="https://m.media-amazon.com/images/M/MV5BZGUzYTI3M2EtZmM0Yy00NGUyLWI4ODEtN2Q3ZGJlYzhhZjU3XkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_.jpg" alt="Poster"/>
+            </div>
+            <div class="main-slider-text">
+                <span class="quality"><b>UHD</b>
+                    <div class="rating">
+                        &nbsp;8.8 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </span>
+                <div class="bottom-text">
+                    <div class="movie-name">
+                        <span>2023</span>
+                        <strong>The Last of Us</strong>
+                    </div>
+                    <div class="category-rating">
+                        <div class="category">
+                            <a href="#" class="c1">Action</a><a href="#" class="c2">Adventure</a><a href="#" class="c3">Drama</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <h1 class="t1">Recommended content</h1>
+
+    <section id="main-slider">
+
+        <!--1-->
+
+        <div class="main-slider-box">
+
+            <div class="main-slider-img">
+                <img src="https://m.media-amazon.com/images/M/MV5BNGViM2M4NmUtMmNkNy00MTQ5LTk5MDYtNmNhODAzODkwOTJlXkEyXkFqcGdeQXVyMTY1NDY4NTIw._V1_FMjpg_UX1000_.jpg" alt="Poster"/>
+            </div>
+            <div class="main-slider-text">
+                <span class="quality"><b>UHD</b>
+                    <div class="rating">
+                        &nbsp;6.5 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </span>
+                <div class="bottom-text">
+                    <div class="movie-name">
+                        <span>2023</span>
+                        <strong>Animal</strong>
+                    </div>
+                    <div class="category-rating">
+                        <div class="category">
+                            <a href="#" class="c1">Action</a><a href="#" class="c2">Crime</a><a href="#" class="c3">Drama</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--2-->
+
+        <div class="main-slider-box">
+
+            <div class="main-slider-img">
+                <img src="https://m.media-amazon.com/images/M/MV5BNzI4MTU5ZDItYzdiOS00YmNiLWEyMTItMzgxOGIzYjU1NmYxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" alt="Poster"/>
+            </div>
+            <div class="main-slider-text">
+                <span class="quality"><b>FHD</b>
+                    <div class="rating">
+                        &nbsp;8.0 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </span>
+                <div class="bottom-text">
+                    <div class="movie-name">
+                        <span>2023</span>
+                        <strong>Sam Bahadur</strong>
+                    </div>
+                    <div class="category-rating">
+                        <div class="category">
+                            <a href="#" class="c1">Biography</a><a href="#" class="c2">Drama</a><a href="#" class="c3">War</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--3-->
+        
+        <div class="main-slider-box">
+
+            <div class="main-slider-img">
+                <img src="https://m.media-amazon.com/images/M/MV5BMmU4ZTM0MTctZTQ3Ny00YjZmLWFhNzEtOGYzMDk0ZjcyNmYzXkEyXkFqcGdeQXVyMTUyNjIwMDEw._V1_.jpg" alt="Poster"/>
+            </div>
+            <div class="main-slider-text">
+                <span class="quality"><b>FHD</b>
+                    <div class="rating">
+                        &nbsp;6.6 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </span>
+                <div class="bottom-text">
+                    <div class="movie-name">
+                        <span>2023</span>
+                        <strong>Salaar</strong>
+                    </div>
+                    <div class="category-rating">
+                        <div class="category">
+                            <a href="#" class="c1">Action</a><a href="#" class="c2">Crime</a><a href="#" class="c3">Drama</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--4-->
+
+        <div class="main-slider-box">
+
+            <div class="main-slider-img">
+                <img src="https://m.media-amazon.com/images/M/MV5BZDI4OTM1ZjMtOWQxMC00OTY5LTg3NjQtMjlhMWVjODFlYTY4XkEyXkFqcGdeQXVyMTYzMTU3Njgx._V1_.jpg" alt="Poster"/>
+            </div>
+            <div class="main-slider-text">
+                <span class="quality"><b>FHD</b>
+                    <div class="rating">
+                        &nbsp;9.2 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </span>
+                <div class="bottom-text">
+                    <div class="movie-name">
+                        <span>2023</span>
+                        <strong>12th Fail</strong>
+                    </div>
+                    <div class="category-rating">
+                        <div class="category">
+                            <a href="#" class="c1">Biography</a><a href="#" class="c2">Drama</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
